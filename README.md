@@ -1,5 +1,10 @@
 #Isomorphism in biological networks
-![image](https://user-images.githubusercontent.com/98582214/154976494-ecc90bc6-0943-4134-a880-a179aacc81a0.png)
-![image](https://user-images.githubusercontent.com/98582214/154890891-279a7f38-3596-4efb-b95f-40f82d9267b1.png)
-Number of real world problems is represented by graph. Graph isomorphism is the area of pattern matching and widely used in various applications such as image processing, protein structure, computer and information system, chemical bond structure, Social Networks. This project surveys both various applications of graph isomorphism and their importance in the society. Graphs are used to represent an image which will be very useful in the area of Image processing where graph shows structural description of image. In such representation vertices represent region of image and relation of regions are represented by links called as edges. Subgraph Isomorphism algorithm for chemical structures is Maximum Common Subgraph which is used for matching 2D and 3D Structures
+Graph Isomorphism Is Widely Used In Various Applications Such As Image Processing, Protein Structure, Computer And Information System, Chemical Bond Structure, Social Networks.
+We Use Protein Structure ,Nodes Represents Protein And Edges Represents Their Interactions Between Nodes.
+We Have Three Levels Of Protein Structure I.E. , Primary Structure ,Secondary Structure , Tertiary Structure.
+For Example Collection Of Food Is Available And Every Food Is Having Their Own Structure That Is Graph Structure. For Providing The Food And That Food Contains Some Proteins, Then Find Protein Graph Structure First And Check Where It Is Available In The Food Structure Or Not.
+![image](https://user-images.githubusercontent.com/98582214/154976706-280fcd13-73f9-4d66-b05a-c1d5a529fd69.png)
+
+![image](https://user-images.githubusercontent.com/98582214/154976647-0084dc9f-4ce4-4a32-b2c2-e0eff5504b8e.png)
+
 ![image](https://user-images.githubusercontent.com/98582214/154828239-408ebbd6-9c9f-4b68-b018-7281e659f5ae.png)
