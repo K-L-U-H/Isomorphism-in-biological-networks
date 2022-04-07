@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Isomorphism_In_Biological_Networks</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="protien_structure.html">STRUCTURE</a></li>
+                    <li><a href="http://localhost:8888/notebooks/daa.ipynb">PROTEIN STRUCTURE</a>
+                    <li><a href="https://github.com/K-L-U-H/Isomorphism-in-biological-networks">CODE SOURCE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>            
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+            <h1>Isomorphism in Biological Networks</h1>
+            <p>Graph Isomorphism Is Widely Used In Various Applications Such As Image Processing, Protein Structure, Computer And Information System, Chemical Bond Structure, Social Networks.<br>
+We Use Protein Structure ,Nodes Represents Protein And Edges Represents Their Interactions Between Nodes.<br>
+We Have Three Levels Of Protein Structure I.E. , Primary Structure ,Secondary Structure , Tertiary Structure.
+</p>
+            <a href="" class="hero-btn">Visit Us to know More about it...</a>
+</div>
+    
+</section>
+ 
+<!----about--->
+<section class="about">
+    <h1>Protein Structures</h1>
+    <p> We Have Three Levels Of Protein Structure I.E. , Primary Structure ,Secondary Structure , Tertiary Structure.<br>Collection Of Food Is Available And Every Food Is Having Their Own Structure That Is Graph Structure. For Providing The Food And That Food Contains Some Proteins, Then Find Protein Graph Structure First And Check Where It Is Available In The Food Structure Or Not.</p>
+    <div class="row">
+        <div class="about-col">
+            <img src="images/primary_structure.jpg" >
+            <div class="layer">
+                <h3>PRIMARY STRUCTURE</h3>
+            </div>
+        </div>
+        <div class="about-col">
+            <img src="images/secondary_structure.jpg" >
+            <div class="layer">
+                <h3>SECONDARY STRUCTURE</h3>
+            </div>
+        </div>
+        <div class="about-col">
+            <img src="images/tertiary_structure.jpg" >
+            <div class="layer">
+                <h3>TERTIARY STRUCTURE</h3>
+            </div>
+        </div>
+    </div>
+    
+</section>
+    
+<!---------- call to action-------->   
+<section class="cta">
+    <h1>Team Contact</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+    
+<!----- footer ----------> 
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Students from KL University</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-github"></i>
+        
+</section>
+    
+    
+<!-----JavaScript for Toggle Menu----->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>  
+    
+    
+</body>
+</html>
